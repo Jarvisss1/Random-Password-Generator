@@ -1,0 +1,127 @@
+#root {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.container{
+  max-width: 680px;
+  border-radius: 5px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.39);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.charlength{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-bottom: 15px;
+  font-size: 20px;
+    font-weight: 700;
+}
+
+.charlength span{
+  color: #3c7a94;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+}
+
+
+.header button ,.generateButton{
+  background-color: #287291;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.error{
+  color: red;
+  font-size: 16px;
+  font-weight: 700;
+
+}
+
+.checkbox{
+  display: grid;
+  grid-template-columns: auto auto;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.checkbox div{
+  display: flex ;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+#length{
+  padding-right: 20px;
+}
+
+.generateButton{
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.strength {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 700;
+  width: max-content;
+  padding: 5px;
+  text-align: center;
+  color: rgb(238, 227, 227);
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.Weak {
+  background-color: red;
+  
+}
+
+.Fair {
+  background-color: orange;
+  color: black;
+}
+
+.Good {
+  background-color: yellow;
+  color: black;
+}
+
+.Strong {
+  background-color: green;
+}
+
+
+
